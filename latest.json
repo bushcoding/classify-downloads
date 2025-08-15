@@ -1,0 +1,14 @@
+{
+    "windows": {
+        "version": "1.0.2",
+        "file": "ClassifyInstaller-1.0.2-win32.exe"
+    },
+    "linux-deb": {
+        "version": "1.0.2",
+        "file": "ClassifyInstaller-1.0.2-linux.deb"
+    },
+    "linux-rpm": {
+        "version": "1.0.2",
+        "file": "ClassifyInstaller-1.0.2-linux.rpm"
+    }
+}
