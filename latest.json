@@ -1,14 +1,38 @@
 {
     "windows": {
         "version": "1.0.2",
-        "file": "ClassifyInstaller-1.0.2-win32.exe"
+        "file": "ClassifyInstaller-1.0.2-win32.exe",
+        "notes": [
+            "Mejoras de rendimiento en el instalador.",
+            "Corrección de errores menores.",
+            "Nueva interfaz de usuario."
+        ]
     },
     "linux-deb": {
         "version": "1.0.2",
-        "file": "ClassifyInstaller-1.0.2-linux.deb"
+        "file": "ClassifyInstaller-1.0.2-linux.deb",
+        "notes": [
+            "Soporte para Ubuntu 24.04.",
+            "Actualización de dependencias.",
+            "Mejor manejo de errores."
+        ]
     },
     "linux-rpm": {
         "version": "1.0.2",
-        "file": "ClassifyInstaller-1.0.2-linux.rpm"
+        "file": "ClassifyInstaller-1.0.2-linux.rpm",
+        "notes": [
+            "Compatibilidad con Fedora 40.",
+            "Instalador más rápido.",
+            "Corrección de bugs reportados."
+        ]
+    },
+    "macos": {
+        "version": "1.0.2",
+        "file": "ClassifyInstaller-1.0.2-macos.dmg",
+        "notes": [
+            "Mejoras en la compatibilidad con macOS Ventura.",
+            "Actualización de la documentación.",
+            "Corrección de errores menores."
+        ]
     }
 }
