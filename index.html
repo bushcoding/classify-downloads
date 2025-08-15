@@ -7,11 +7,38 @@
 
 <body>
     <h1>Classify Client Downloads</h1>
-    <ul>
-        <li><a href="windows/ClassifyInstaller.exe">Windows</a></li>
-        <li><a href="linux-deb/ClassifyInstaller.deb">Linux DEB</a></li>
-        <li><a href="linux-rpm/ClassifyInstaller.rpm">Linux RPM</a></li>
+    <ul id="download-list">
+        <!-- Los enlaces se generarán dinámicamente -->
     </ul>
+    <script>
+        fetch('latest.json')
+            .then(response => response.json())
+            .then(data => {
+                const downloads = [
+                    { key: 'windows', label: 'Windows', folder: 'windows' },
+                    { key: 'linux-deb', label: 'Linux DEB', folder: 'linux-deb' },
+                    { key: 'linux-rpm', label: 'Linux RPM', folder: 'linux-rpm' }
+                ];
+                const ul = document.getElementById('download-list');
+                downloads.forEach(d => {
+                    if (data[d.key]) {
+                        const file = data[d.key].file;
+                        const version = data[d.key].version;
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = `${d.folder}/${file}`;
+                        a.setAttribute('download', file); // Forzar nombre de descarga
+                        a.textContent = `${d.label} (v${version})`;
+                        li.appendChild(a);
+                        ul.appendChild(li);
+                    }
+                });
+            })
+            .catch(() => {
+                const ul = document.getElementById('download-list');
+                ul.innerHTML = '<li style="color:red">No se pudieron cargar los enlaces de descarga. Abre esta página desde un servidor web o GitHub Pages.</li>';
+            });
+    </script>
 </body>
 
 </html>
