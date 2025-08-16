@@ -8,7 +8,6 @@
 <body>
     <h1>Classify Client Downloads</h1>
     <ul id="download-list">
-        <!-- Los enlaces se generarán dinámicamente -->
     </ul>
     <script>
         fetch('latest.json')
@@ -27,7 +26,7 @@
                         const li = document.createElement('li');
                         const a = document.createElement('a');
                         a.href = `${d.folder}/${file}`;
-                        a.setAttribute('download', file); // Forzar nombre de descarga
+                        a.setAttribute('download', file);
                         a.textContent = `${d.label} (v${version})`;
                         li.appendChild(a);
                         ul.appendChild(li);
