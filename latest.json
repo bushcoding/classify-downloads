@@ -1,6 +1,6 @@
 {
     "windows": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "file": "ClassifyInstaller-1.0.2-win32.exe",
         "notes": [
             "Mejoras de rendimiento en el instalador.",
