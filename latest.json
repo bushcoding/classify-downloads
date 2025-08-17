@@ -1,11 +1,12 @@
 {
     "windows": {
         "version": "1.0.3",
-        "file": "ClassifyInstaller-1.0.2-win32.exe",
+        "file": "ClassifyInstaller-1.0.3-win.exe",
         "notes": [
-            "Mejoras de rendimiento en el instalador.",
-            "Corrección de errores menores.",
-            "Nueva interfaz de usuario."
+            "New custom titlebar with window controls and update button.",
+            "Integrated update system in the app.",
+            "Loader/progress indicator when entering the app or loading something.",
+            "Support and documentation for automated testing with Jest."
         ]
     },
     "linux-deb": {

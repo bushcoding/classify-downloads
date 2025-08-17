@@ -6,7 +6,7 @@ Este proyecto proporciona instaladores para la aplicación Classify en diferente
 
 - `index.html`: Página principal para la descarga de instaladores.
 - `latest.json`: Archivo JSON que contiene información sobre la última versión disponible.
-- `windows/`: Carpeta con el instalador para Windows (`ClassifyInstaller-1.0.2-win32.exe`).
+- `windows/`: Carpeta con el instalador para Windows (`ClassifyInstaller-1.0.2-win.exe`).
 - `linux-deb/`: Carpeta con el instalador para distribuciones Linux basadas en DEB (`ClassifyInstaller-1.0.2-linux.deb`).
 - `linux-rpm/`: Carpeta con el instalador para distribuciones Linux basadas en RPM (`ClassifyInstaller-1.0.2-linux.rpm`).
 
