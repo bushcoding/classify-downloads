@@ -20,8 +20,8 @@
         ]
     },
     "linux-rpm": {
-        "version": "1.0.2",
-        "file": "ClassifyInstaller-1.0.2-linux.rpm",
+        "version": "1.0.3",
+        "file": "ClassifyInstaller-1.0.3-linux.rpm",
         "notes": [
             "Compatibilidad con Fedora 40.",
             "Instalador más rápido.",
