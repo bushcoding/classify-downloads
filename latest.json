@@ -23,9 +23,10 @@
         "version": "1.0.3",
         "file": "ClassifyInstaller-1.0.3-linux.rpm",
         "notes": [
-            "Compatibilidad con Fedora 40.",
-            "Instalador más rápido.",
-            "Corrección de bugs reportados."
+            "New custom titlebar with window controls and update button.",
+            "Integrated update system in the app.",
+            "Loader/progress indicator when entering the app or loading something.",
+            "Support and documentation for automated testing with Jest."
         ]
     },
     "macos": {
