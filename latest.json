@@ -1,7 +1,7 @@
 {
     "windows": {
         "version": "1.0.4",
-        "file": "ClassifyInstaller-1.0.3-win.exe",
+        "file": "ClassifyInstaller-1.0.4-win.exe",
         "notes": [
             "New custom titlebar with window controls and update button.",
             "Integrated update system in the app.",
