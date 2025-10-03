@@ -1,25 +1,28 @@
-# classify-downloads
+# Classify Downloads
 
-Este proyecto proporciona instaladores para la aplicación Classify en diferentes plataformas (Windows, Linux DEB, Linux RPM). El repositorio contiene los archivos necesarios para descargar e instalar la aplicación fácilmente.
+Official downloads repository for Classify Desktop App - A powerful file organization tool.
 
-## Estructura del proyecto
 
-- `index.html`: Página principal para la descarga de instaladores.
-- `latest.json`: Archivo JSON que contiene información sobre la última versión disponible.
-- `windows/`: Carpeta con el instalador para Windows (`ClassifyInstaller-1.0.2-win.exe`).
-- `linux-deb/`: Carpeta con el instalador para distribuciones Linux basadas en DEB (`ClassifyInstaller-1.0.2-linux.deb`).
-- `linux-rpm/`: Carpeta con el instalador para distribuciones Linux basadas en RPM (`ClassifyInstaller-1.0.2-linux.rpm`).
 
-## Cómo usar
+## 📥 Download
 
-1. Accede a la página `index.html` para ver las opciones de descarga.
-2. Descarga el instalador correspondiente a tu sistema operativo.
-3. Sigue las instrucciones de instalación específicas para tu plataforma.
+**[Download Latest Version →](https://github.com/bushcoding/classify-downloads/releases/latest)**
 
-## Actualización de instaladores
+### Available Platforms:
+- 🪟 **Windows** - `.exe` installer
+- 🐧 **Linux DEB** - For Debian, Ubuntu, Mint, Pop!_OS
+- 🐧 **Linux RPM** - For Fedora, RHEL, CentOS, openSUSE
 
-- Para actualizar los instaladores, reemplaza los archivos en las carpetas correspondientes y actualiza `latest.json` con la información de la nueva versión.
+## 🚀 Installation
 
-## Licencia
+1. Go to [Releases](https://github.com/bushcoding/classify-downloads/releases/latest)
+2. Download the installer for your platform
+3. Run the installer and follow the instructions
 
-Este proyecto está bajo la licencia que determine el propietario. Consulta con el autor para más detalles.
+## 🔄 Updates
+
+Classify automatically checks for updates and notifies you when a new version is available.
+
+## 📄 License
+
+© BushCoding - All rights reserved
