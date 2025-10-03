@@ -10,8 +10,8 @@
         ]
     },
     "linux-deb": {
-        "version": "1.0.3",
-        "file": "ClassifyInstaller-1.0.3-linux.deb",
+        "version": "1.0.5",
+        "file": "ClassifyInstaller-1.0.5-linux.deb",
         "notes": [
             "New custom titlebar with window controls and update button.",
             "Integrated update system in the app.",
@@ -20,8 +20,8 @@
         ]
     },
     "linux-rpm": {
-        "version": "1.0.3",
-        "file": "ClassifyInstaller-1.0.3-linux.rpm",
+        "version": "1.0.5",
+        "file": "ClassifyInstaller-1.0.5-linux.rpm",
         "notes": [
             "New custom titlebar with window controls and update button.",
             "Integrated update system in the app.",
